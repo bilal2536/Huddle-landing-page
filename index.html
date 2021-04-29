@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huddle landing page</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <nav class="main-nav container">
+            <div class="logo ir">
+                <!-- Méthode n°1 : masquage de l'image pour les lecteurs d'écran + utilisation de la classe .screen-reader-text pour rendre le texte visible uniquement pour les lecteurs d'écran -->
+                <!-- 
+                <img src="img/color_logo_transparent.png" alt="Logo de Huddle" aria-hidden="true">
+                <span class="screen-reader-text">Huddle - the best community tool</span> 
+                -->
+
+                <!-- Méthode 2 : ajout de la classe ir (image replacement) sur la div.logo , et dans le CSS, on définit une largeur, une hauteur et on applique une image d'arrière plan -->
+                Huddle - the best community tool
+            </div>
+            <ul class="menu">
+                <li class="menu-item"><a href="#scroll-test" class="button button-secondary">Try it free</a></li>
+            </ul>
+        </nav>
+        <section class="product-description container">
+            <div class="product-description-content">
+                <h1>Build The Community Your Fans Will Love</h1>
+                <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+                <a href="#" class="button">Get Started For Free </a>
+            </div>
+            <figure class="product-description-illustration">
+                <img src="img/product-preview.svg" alt="Preview of Huddle App on desktop and smartphone" loading="lazy">
+            </figure>
+        </section>
+    </header>
+
+    <main class="main-content container">
+        <ul class="advantages-list">
+            <li class="advantage-item">
+                <div class="advantage-item-desc">
+                    <h2>Grow Together</h2>
+                    <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+                </div>
+                <figure class="advantage-item-illustration">
+                    <img    srcset="img/advantage-1.png,
+                                    img/advantage-1@2x.png 2x"
+                            src="img/advantage-1.png" alt="A man and a woman growing together" loading="lazy">
+                </figure>
+            </li>
+            <li class="advantage-item">
+                <div class="advantage-item-desc">
+                    <h2>Flowing Conversations</h2>
+                    <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+                </div>
+                <figure class="advantage-item-illustration">
+                    <img    srcset="img/advantage-2.png,
+                                    img/advantage-2@2x.png 2x"
+                            src="img/advantage-2.png" alt="A feast of friends" loading="lazy">
+                </figure>
+            </li>
+            <li class="advantage-item">
+                <div class="advantage-item-desc">
+                    <h2>Your Users</h2>
+                    <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+                </div>
+                <figure class="advantage-item-illustration">
+                    <img    srcset="img/advantage-3.png,
+                                    img/advantage-3@2x.png 2x"
+                            src="img/advantage-3.png" alt="Space folks" loading="lazy">
+                </figure>
+            </li>
+        </ul>
+        <section class="call-to-action container">
+            <h2>Ready To Build Your Community?</h2>
+            <a href="#" class="button button-big">Get Started For Free</a>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="logo ir">Huddle</div>
+            <address class="main-address">
+                <ul class="contact-list">
+                    <li class="contact-item location">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+                    <li class="contact-item phone">
+                        <a href="tel:15431234567">+1-543-123-4567</a>
+                    </li>
+                    <li class="contact-item mail">
+                        <a href="mailto:example@huddle.com">example@huddle.com</a>
+                    </li>
+                </ul>
+            </address>
+            <nav class="footer-nav">
+                <ul class="menu">
+                    <li class="menu-item"><a href="#">About us</a></li>
+                    <li class="menu-item"><a href="#">What we do</a></li>
+                    <li class="menu-item"><a href="#">FAQ</a></li>
+                    <li class="menu-item"><a href="#">Career</a></li>
+                    <li class="menu-item"><a href="#">Blog</a></li>
+                    <li class="menu-item"><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+            <ul class="social-list">
+                <li class="social-item"><a href="https://www.facebook.com" target="_blank" class="ir">Visit Huddle's Facebook</a></li>
+                <li class="social-item"><a href="https://www.twitter.com" target="_blank" class="ir">Visit Huddle's Twitter</a></li>
+                <li class="social-item"><a href="https://www.instagram.com" target="_blank" class="ir">Visit Huddle's Instagram</a></li>
+            </ul>
+            <p class="copyright" id="scroll-test">© Copyright 2018 Huddle. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
