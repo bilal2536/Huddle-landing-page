@@ -25,3 +25,8 @@ Avantages :
 ![Screenshot 2021-09-29 at 01-23-29 Page de destination du groupe](https://user-images.githubusercontent.com/61947370/135178714-da8ad8c7-e569-4a2d-a0ec-6800c0b9d27e.png)
 
 Voici le lien pour y jeter un oeil ! ==>  https://bilal2536.github.io/Huddle-landing-page/ 
+
+# Autres intégrations 
+
+- https://bilal2536.github.io/Minimalist-portfolio/ 
+- https://bilal2536.github.io/Ubiquity-landing-page/
